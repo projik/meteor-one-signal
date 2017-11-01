@@ -1,10 +1,10 @@
 Package.describe({
-  name: 'astrocoders:one-signal',
+  name: 'projik:one-signal',
   version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Simple OneSignal integration for Meteor',
   // URL to the Git repository containing the source code for this package.
-  git: 'https://github.com/Astrocoders/meteor-one-signal',
+  git: 'https://github.com/projik/meteor-one-signal',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
@@ -28,5 +28,5 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('astrocoders:one-signal');
+  api.use('projik:one-signal');
 });
