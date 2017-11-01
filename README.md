@@ -5,7 +5,7 @@ Easily send push notifications via OneSignal REST API.
 # Installing
 
 ```
-$ meteor add astrocoders:one-signal
+$ meteor add projik:one-signal
 ```
 
 ## Getting started
